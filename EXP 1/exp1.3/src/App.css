@@ -1,0 +1,178 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container.dark-mode {
+  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
+  color: #e0e0e0;
+}
+
+.app-container.light-mode {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333333;
+}
+
+.theme-toggle-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.app-container.light-mode .theme-toggle-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #646cff 0%, #61dafb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.theme-content {
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.app-container.light-mode .theme-content {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.theme-icon {
+  font-size: 4em;
+  margin-bottom: 1rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.theme-status {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.theme-name {
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.app-container.light-mode .theme-name {
+  color: #0c8599;
+}
+
+.toggle-btn {
+  background: linear-gradient(135deg, #646cff 0%, #61dafb 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(100, 108, 255, 0.4);
+}
+
+.toggle-btn:active {
+  transform: translateY(-2px);
+}
+
+.features {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.app-container.light-mode .features {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+.app-container.light-mode .features h3 {
+  color: #0c8599;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 0.5rem 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.features li:before {
+  content: "✓";
+  color: #61dafb;
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.2em;
+}
+
+.app-container.light-mode .features li:before {
+  color: #0c8599;
+}
+
+@media (max-width: 600px) {
+  .theme-toggle-card {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .theme-icon {
+    font-size: 3em;
+  }
+
+  .toggle-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1em;
+  }
+}
