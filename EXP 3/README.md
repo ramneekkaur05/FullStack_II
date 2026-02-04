@@ -7,14 +7,18 @@ This folder contains three subparts demonstrating progressive React Router imple
 | Subpart | Focus | Features |
 |---------|-------|----------|
 | **Subpart 1** | Basic React Router | Home, About, Contact pages with simple routing |
-| **Subpart 2** | Complex Layouts & Styling | Profile page with hero section, projects grid, education timeline, skills display, and Dashboard with skills portfolio |
-| **Subpart 3** | Navigation Navbar + Routing | Sticky navbar with "Profile" and "Dashboard" buttons, profile photo icon branding, default landing on Profile page |
+| **Subpart 2** | Complex Layouts & Styling | Profile page with intro section, projects grid, education timeline, skills display, and Dashboard page with skills portfolio |
+| **Subpart 3** | Navigation Navbar + Routing using buttons | Sticky navbar with "Profile" and "Dashboard" buttons, profile photo icon branding, default landing on Profile page |
 
 ---
 
-## Subpart 1: Basic React Router
+# Subpart 1: Basic React Router
 
 A foundational setup of React Router demonstrating basic page routing.
+<img width="1868" height="1040" alt="Screenshot 2026-02-04 194322" src="https://github.com/user-attachments/assets/0b9525ab-f28c-4ad3-b06f-ada364ea7259" />
+<img width="1878" height="1045" alt="Screenshot 2026-02-04 194338" src="https://github.com/user-attachments/assets/0dec621e-b23a-4ad3-9859-faf8111e0e50" />
+<img width="1871" height="1042" alt="Screenshot 2026-02-04 194356" src="https://github.com/user-attachments/assets/bf973cba-feba-4931-8ac7-9e18a8a7fa13" />
+
 
 ### Pages:
 - **Home**: Landing page
@@ -37,9 +41,14 @@ Visit: `http://localhost:5173` (or next available port)
 
 ---
 
-## Subpart 2: Profile & Dashboard
+# Subpart 2: Profile & Dashboard
 
 A sophisticated portfolio showcase with two main sections.
+<img width="1876" height="1042" alt="Screenshot 2026-02-04 194442" src="https://github.com/user-attachments/assets/89e2d930-bfdb-4153-bdaa-438ac36e232c" />
+<img width="1875" height="1038" alt="Screenshot 2026-02-04 194452" src="https://github.com/user-attachments/assets/3af10d95-e61c-473b-8632-26c7e32d407b" />
+<img width="1878" height="1040" alt="Screenshot 2026-02-04 194501" src="https://github.com/user-attachments/assets/b06767ce-7e49-42b1-8b92-003953c18d4d" />
+
+
 
 ### Pages:
 
@@ -86,9 +95,12 @@ Visit: `http://localhost:5173` (or next available port)
 
 ---
 
-## Subpart 3: Portfolio with Navigation Navbar
+# Subpart 3: Portfolio with Navigation Navbar
 
 A polished portfolio application with persistent navbar and seamless routing.
+<img width="1877" height="1043" alt="Screenshot 2026-02-04 194531" src="https://github.com/user-attachments/assets/46dc831a-38e5-4743-ab1f-b516ad2ce9cf" />
+<img width="1875" height="1035" alt="Screenshot 2026-02-04 194539" src="https://github.com/user-attachments/assets/f1d3055c-e118-4c57-b792-645f058943a4" />
+
 
 ### Key Features:
 - **Sticky Navbar**:
