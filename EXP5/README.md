@@ -16,6 +16,11 @@ Lazy loading is a design pattern that defers the loading of components until the
 ### Description
 This project demonstrates basic lazy loading in React using `React.lazy()` and `Suspense`. It showcases how to dynamically import components and display a loading state while the component is being loaded.
 
+
+<img width="1803" height="951" alt="Screenshot 2026-02-13 161357" src="https://github.com/user-attachments/assets/2e606a8e-5f14-47bb-97e1-3977de23d931" />
+
+<img width="1805" height="947" alt="Screenshot 2026-02-13 161411" src="https://github.com/user-attachments/assets/4c0e9c7c-d20a-4d1d-9c68-b66d34962a9b" />
+
 ### Key Features
 - ✨ Dynamic component import using `React.lazy()`
 - ⏳ Suspense boundary with loading fallback
@@ -73,6 +78,12 @@ npm run dev
 
 ### Description
 This project demonstrates lazy loading combined with React Router. It shows how to implement code-splitting at the route level, where each page is loaded only when the user navigates to that specific route.
+
+<img width="1199" height="672" alt="Screenshot 2026-02-13 161503" src="https://github.com/user-attachments/assets/3c47b575-ed05-40b7-aaff-3204bb8e13e3" />
+<img width="1849" height="1037" alt="Screenshot 2026-02-13 160718" src="https://github.com/user-attachments/assets/4b12bffa-2e90-4931-b2d6-a3d2ced0064e" />
+<img width="1878" height="1033" alt="Screenshot 2026-02-13 161208" src="https://github.com/user-attachments/assets/c97d5e13-94a2-499f-8463-41ce2c34f51a" />
+<img width="1879" height="1042" alt="Screenshot 2026-02-13 161226" src="https://github.com/user-attachments/assets/5c389761-fe83-4d0a-ad2f-51b0a65b515e" />
+
 
 ### Key Features
 - 🚀 Route-based code splitting
@@ -190,17 +201,12 @@ npm run dev
 4. Start the development server: `npm run dev`
 5. Open your browser and explore!
 
-## 📚 Additional Resources
-
-- [React.lazy() Documentation](https://react.dev/reference/react/lazy)
-- [Code Splitting - React Docs](https://react.dev/learn/code-splitting)
-- [React Router - Lazy Loading](https://reactrouter.com/en/main/route/lazy)
-- [Vite - Code Splitting](https://vitejs.dev/guide/features.html#code-splitting)
-
----
 
 ## 👨‍💻 Author
 Ramneek Kaur
 
-## 📄 License
-This project is part of Full Stack II coursework.
+
+UID - 23BAI70043
+
+
+LOCATION - CHANDIGARH UNIVERSITY :)
