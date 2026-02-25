@@ -7,6 +7,10 @@ This folder contains two React applications demonstrating different form validat
 ### 1. Client-Side Form (`clientsideform/`)
 
 A React application demonstrating **client-side form validation** with real-time feedback and password strength indicators.
+<img width="625" height="787" alt="Screenshot 2026-02-25 213203" src="https://github.com/user-attachments/assets/ae4ca561-4611-4b05-8684-3ff4ead2ad57" />
+<img width="573" height="772" alt="Screenshot 2026-02-25 213213" src="https://github.com/user-attachments/assets/ec619fbd-0fc4-486c-9b6e-c8750cb6b49d" />
+<img width="589" height="786" alt="Screenshot 2026-02-25 213220" src="https://github.com/user-attachments/assets/67ce7f35-157b-428d-8867-596fa523c7ef" />
+<img width="740" height="995" alt="Screenshot 2026-02-25 213238" src="https://github.com/user-attachments/assets/428f9026-abe0-4b23-ac62-fb57b807e9e4" />
 
 #### Features:
 - **Email Validation**
@@ -43,6 +47,10 @@ A React application demonstrating **client-side form validation** with real-time
 ### 2. Submission Form (`submissionform/`)
 
 A comprehensive **profile submission form** with multiple input types and form controls.
+<img width="1010" height="963" alt="Screenshot 2026-02-25 213349" src="https://github.com/user-attachments/assets/09da74a9-8e19-4944-96fb-6f84f823f49a" />
+<img width="1108" height="964" alt="Screenshot 2026-02-25 213448" src="https://github.com/user-attachments/assets/c09ace68-b464-4fd0-a9de-4e79a80b6c34" />
+<img width="1284" height="1037" alt="Screenshot 2026-02-25 213502" src="https://github.com/user-attachments/assets/7b7dff7d-7ded-4c73-805c-281ceff31cec" />
+
 
 #### Features:
 - **Personal Information**
