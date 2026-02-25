@@ -1,0 +1,151 @@
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  text-align: left;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8d8b7b;
+  margin: 0 0 0.5rem;
+}
+
+.subtitle {
+  margin: 0.4rem 0 0;
+  color: #4f4c3d;
+}
+
+.form {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(34, 34, 34, 0.08);
+  padding: 2.5rem;
+  border: 1px solid #ece7db;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-weight: 600;
+  color: #3f3b2e;
+}
+
+.field span {
+  font-size: 0.95rem;
+}
+
+.field input,
+.field select,
+.field textarea {
+  border-radius: 12px;
+  border: 1px solid #dcd4c0;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fffaf0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: #a7883a;
+  box-shadow: 0 0 0 3px rgba(167, 136, 58, 0.2);
+}
+
+.full {
+  grid-column: span 2;
+}
+
+.inline-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.2rem;
+}
+
+.inline-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.actions button {
+  border-radius: 999px;
+  padding: 0.65rem 1.6rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.actions button:hover {
+  transform: translateY(-1px);
+}
+
+.primary {
+  background: #c59a35;
+  color: #ffffff;
+  box-shadow: 0 16px 30px rgba(197, 154, 53, 0.25);
+}
+
+.primary:hover {
+  box-shadow: 0 20px 36px rgba(197, 154, 53, 0.3);
+}
+
+.ghost {
+  background: transparent;
+  border-color: #c8b58b;
+  color: #725b24;
+}
+
+@media (max-width: 720px) {
+  #root {
+    padding: 2rem 1.2rem 3rem;
+  }
+
+  .form {
+    padding: 2rem 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full {
+    grid-column: span 1;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
