@@ -29,8 +29,11 @@ building web APIs.
   HTTP Method   Action
   ------------- ----------------------
   GET           Retrieve data
+  
   POST          Create new data
+  
   PUT           Update existing data
+  
   DELETE        Remove data
 
 This example project helps you understand these basics in practice.
@@ -46,10 +49,17 @@ a. READ DATA (GET)
 b. ADD DATA (POST)
 <img width="1101" height="746" alt="Screenshot 2026-03-25 140419" src="https://github.com/user-attachments/assets/b4c6155d-7779-42a4-be04-58e443a573ce" />
 
-c. UPDATE 
-<img width="1102" height="742" alt="Screenshot 2026-03-25 140629" src="https://github.com/user-attachments/assets/10886205-440b-400c-a8b3-acda6f5a95b9" />
+c. UPDATE (PUT)
+
+Before updating -: 
+<img width="1081" height="830" alt="Screenshot 2026-03-26 203236" src="https://github.com/user-attachments/assets/e276e378-d40e-4e9e-a2f7-886fa11ff0c0" />
+
+After Updating -:
+<img width="1093" height="645" alt="Screenshot 2026-03-26 203321" src="https://github.com/user-attachments/assets/dd6ca4a1-dd2d-475f-a0ad-01e64c345cc2" />
+<img width="1098" height="824" alt="Screenshot 2026-03-26 203334" src="https://github.com/user-attachments/assets/d7d402d8-953a-481d-a652-c515910eee35" />
 
 d. DELETE
+
 BEFORE DELETEING -:
 <img width="1105" height="849" alt="Screenshot 2026-03-25 140715" src="https://github.com/user-attachments/assets/00d2949f-4d92-4f03-8841-1d2691fd23b1" />
 
@@ -59,10 +69,10 @@ AFTER DELETING ID:103 -:
 
 ### CODE IN ECLLIPSE
 <img width="564" height="237" alt="Screenshot 2026-03-25 143259" src="https://github.com/user-attachments/assets/e1869ddb-ba14-4ced-b04f-ce54e8c42a7d" />
-<img width="514" height="551" alt="Screenshot 2026-03-25 143357" src="https://github.com/user-attachments/assets/bf1b665a-9596-48c8-a827-33cecf3c6f46" />
+<img width="1004" height="561" alt="Screenshot 2026-03-26 203730" src="https://github.com/user-attachments/assets/e1c3a792-f112-490c-9f22-068a341d3f4c" />
 <img width="368" height="520" alt="Screenshot 2026-03-25 143432" src="https://github.com/user-attachments/assets/b6933d68-65cf-41e3-8f2f-32535a041d6b" />
 <img width="633" height="240" alt="Screenshot 2026-03-25 143444" src="https://github.com/user-attachments/assets/ffac5546-a035-41ff-89b2-0dd4a95839fc" />
-<img width="620" height="528" alt="Screenshot 2026-03-25 143452" src="https://github.com/user-attachments/assets/42b4da5f-3c03-49a4-a4f5-316d42e33419" />
+<img width="625" height="561" alt="Screenshot 2026-03-26 203739" src="https://github.com/user-attachments/assets/36eb10e0-8a03-48fb-a470-7851de0b0c97" />
 <img width="622" height="213" alt="Screenshot 2026-03-25 143501" src="https://github.com/user-attachments/assets/82ed00f1-983a-4f4d-a462-fb958feceb78" />
 
 ### RUNNING PROJECT
@@ -87,25 +97,6 @@ Screenshot (Ecllipse) -:
 
 ------------------------------------------------------------------------
 
-## 🛠️ How to Run the Project
-
-### 1️⃣ Clone the repository
-
-``` bash
-git clone https://github.com/agxmm01/Rest-API-example.git
-cd Rest-API-example
-```
-
-### 2️⃣ Build & Run
-
-Just go to RestExampleApplication.java and click on run
-
-The backend server will start on:
-
-👉 http://localhost:8080
-
-------------------------------------------------------------------------
-
 ## 📍 How to Test the API
 
 You can test the REST API using tools like:
@@ -113,17 +104,6 @@ You can test the REST API using tools like:
 -   Postman
 -   cURL
 -   VSCode REST Client
-
-Try sending these requests:
-
-  Request                             Description
-  ---------------------------         -------------
-  GET /students/yourEndpoint           Read data
-  POST /students/yourEndpoint          Create data
-  PUT /students/yourEndpoint/{id}      Update data
-  DELETE /students/yourEndpoint/{id}   Delete data
-
-Replace `/yourEndpoint` with the actual api defined in the code(in controller class). 
 
 ------------------------------------------------------------------------
 
