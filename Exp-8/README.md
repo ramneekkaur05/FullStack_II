@@ -67,6 +67,10 @@ AFTER DELETING ID:103 -:
 <img width="1101" height="742" alt="Screenshot 2026-03-25 142640" src="https://github.com/user-attachments/assets/ac77da5f-e4ae-48cc-9888-f157faa9fdad" />
 
 
+### Server running -: 
+<img width="1303" height="484" alt="Screenshot 2026-03-27 094037" src="https://github.com/user-attachments/assets/17aa4395-ce94-4052-a79c-3af2caffa4c7" />
+
+
 ### CODE IN ECLLIPSE
 <img width="564" height="237" alt="Screenshot 2026-03-25 143259" src="https://github.com/user-attachments/assets/e1869ddb-ba14-4ced-b04f-ce54e8c42a7d" />
 <img width="1004" height="561" alt="Screenshot 2026-03-26 203730" src="https://github.com/user-attachments/assets/e1c3a792-f112-490c-9f22-068a341d3f4c" />
