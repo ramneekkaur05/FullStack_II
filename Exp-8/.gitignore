@@ -31,15 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-# Generic frontend/node ignores (safe to keep)
-node_modules/
-package-lock.json
-.env
-.env.local
-.DS_Store
-Thumbs.db
-*.log
-npm-debug.log*
-.cache/
-.temp/
