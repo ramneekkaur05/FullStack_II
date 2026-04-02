@@ -1,4 +1,4 @@
-# 🔐 Spring Security + JWT Authentication Demo
+# 🔐 Spring Security + JWT Authentication 
 
 This project demonstrates how to implement authentication and authorization using Spring Security and JSON Web Tokens (JWT) in a RESTful API.
 
