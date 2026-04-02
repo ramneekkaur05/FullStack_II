@@ -71,3 +71,22 @@ Headers: `Authorization: Bearer <your_jwt_token>`
 - Stateless session
 - JWT filter added before `UsernamePasswordAuthenticationFilter`
 - BCrypt password encoding
+
+## Screenshots
+<img width="1242" height="818" alt="Screenshot 2026-04-02 191842" src="https://github.com/user-attachments/assets/64a59d3f-8eed-4df0-a0bb-7411c1c308e7" />
+<img width="1578" height="685" alt="Screenshot 2026-04-02 191645" src="https://github.com/user-attachments/assets/dcb36de3-a1e2-4199-bb21-a7d71764e055" />
+<img width="1590" height="619" alt="Screenshot 2026-04-02 191740" src="https://github.com/user-attachments/assets/f470d002-8c5b-4665-a424-a57fb8c799ca" />
+<img width="1573" height="719" alt="Screenshot 2026-04-02 191824" src="https://github.com/user-attachments/assets/d1bafbb7-967b-4e86-bb04-a5a71d89be82" />
+
+
+
+
+
+
+
+
+
+
+
+
+
