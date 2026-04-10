@@ -17,6 +17,17 @@ This project demonstrates full CRUD integration between a React frontend and a S
 - Backend: Spring Boot, Spring Web MVC, Spring Data JPA
 - Database: MySQL
 
+## Screenshots
+<img width="1125" height="964" alt="image" src="https://github.com/user-attachments/assets/82a30b9b-25ae-4bb2-bb3b-a3fbce2f98a0" />
+<img width="1158" height="1031" alt="image" src="https://github.com/user-attachments/assets/bdc13866-fb03-43fd-b5a2-15a6413aba9f" />
+<img width="1128" height="963" alt="image" src="https://github.com/user-attachments/assets/992515a1-40ed-4dd6-945f-d07460df44de" />
+<img width="1112" height="957" alt="image" src="https://github.com/user-attachments/assets/94a64d10-e3d4-4fff-b768-22a0316522d5" />
+<img width="1102" height="949" alt="image" src="https://github.com/user-attachments/assets/74d636ad-fbe1-4b71-a39b-bc2c12899130" />
+<img width="1073" height="944" alt="image" src="https://github.com/user-attachments/assets/6f08b2d6-50b6-433a-b9d6-98f241b834f9" />
+<img width="1109" height="968" alt="image" src="https://github.com/user-attachments/assets/46d09cea-df28-446b-8361-a5017f4d32c9" />
+
+
+
 ## How frontend and backend are connected
 The frontend uses this base URL:
 - `http://localhost:8081/api/students`
