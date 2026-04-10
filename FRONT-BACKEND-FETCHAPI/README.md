@@ -100,3 +100,6 @@ npm run dev
 - This is a simple learning-focused integration project.
 - Validation and detailed error handling can be added as next improvements.
 - Credentials in `application.properties` are local-development specific and should be replaced with environment variables for production.
+
+## Author
+RAMNEEK KAUR
